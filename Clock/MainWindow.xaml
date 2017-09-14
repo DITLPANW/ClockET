@@ -1,0 +1,38 @@
+﻿<Window x:Class="Clock.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Timer" Height="720" Width="720" WindowStyle="None" WindowStartupLocation="CenterScreen" AllowsTransparency="True" Background="Transparent">
+    <Grid Name="grid">
+        <Ellipse Name="ClockFaceBorder" Width="720" Height="720" StrokeThickness="20" Stroke="#FF381700"  Fill="Transparent"/>
+        <Ellipse Name="ClockFace" Width="680" Height="680" Fill="#FFD2E4D0" Opacity="0.7"/>
+
+        <Label Name="Author" Content="Mirkoslaw" Width="270" Height="60" FontSize="48" HorizontalContentAlignment="Center" Margin="0,0,0,300" FontFamily="Vivaldi" FontStyle="Italic" FontWeight="Bold" Foreground="#FF032C0E"/>
+
+        <Grid Name="DigitalClock" Background="#FF170F0A" Width="185" Height="70" Margin="267,250,0,0" HorizontalAlignment="Left" Opacity="0.7">
+            <Label Name="DigitalHour" Width="55" Height="60" Margin="5,0,0,0" Padding="5,0,0,0" Background="#FF50975D" Content="00" FontSize="40" HorizontalAlignment="Left"/>
+            <Label Name="DigitalMinute" Width="55" Height="60" Margin="65,0,0,0" Padding="5,0,0,0" Background="#FF50975D" Content="00" FontSize="40" HorizontalAlignment="Left"/>
+            <Label Name="DigitalSecond" Width="55" Height="60" Margin="125,0,0,0" Padding="5,0,0,0" Background="#FF50975D" Content="00" FontSize="40" HorizontalAlignment="Left"/>
+        </Grid>
+
+        
+        <Rectangle Margin="0,0,0,301" Name="SecondHand" Width ="3" Stroke="#FF680808" Height="300" Fill="#FF680808">
+            <Rectangle.RenderTransform>
+                <RotateTransform x:Name="secondHand" CenterX="2" CenterY="300" Angle="0" />
+            </Rectangle.RenderTransform>
+        </Rectangle>
+
+        <Rectangle Margin="0,0,0,271" Name="MinuteHand" Width ="4" Stroke="Black" Height="270" Fill="Black">
+            <Rectangle.RenderTransform>
+                <RotateTransform x:Name="minuteHand" CenterX="2" CenterY="270" Angle="90" />
+            </Rectangle.RenderTransform>
+        </Rectangle>
+
+        <Rectangle Margin="0,0,0,201" Width="4" Name="HourHand" Stroke="Black" Height="200" Fill="Black">
+            <Rectangle.RenderTransform>
+                <RotateTransform x:Name="hourHand" CenterX="2" CenterY="200" Angle="270" />
+            </Rectangle.RenderTransform>
+        </Rectangle>
+
+        <Ellipse Name="CenterDot" Width="7" Height="7" Fill="Black"/>
+    </Grid>
+</Window>
