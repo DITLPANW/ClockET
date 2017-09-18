@@ -1,0 +1,13 @@
+c:\DITL\Git\ClockET\Clock\bin\Debug\Clock.exe.config
+c:\DITL\Git\ClockET\Clock\bin\Debug\Clock.exe
+c:\DITL\Git\ClockET\Clock\bin\Debug\Clock.pdb
+c:\DITL\Git\ClockET\Clock\obj\Debug\Clock.csprojResolveAssemblyReference.cache
+c:\DITL\Git\ClockET\Clock\obj\Debug\MainWindow.baml
+c:\DITL\Git\ClockET\Clock\obj\Debug\MainWindow.g.cs
+c:\DITL\Git\ClockET\Clock\obj\Debug\App.g.cs
+c:\DITL\Git\ClockET\Clock\obj\Debug\Clock_MarkupCompile.cache
+c:\DITL\Git\ClockET\Clock\obj\Debug\Clock.g.resources
+c:\DITL\Git\ClockET\Clock\obj\Debug\Clock.Properties.Resources.resources
+c:\DITL\Git\ClockET\Clock\obj\Debug\Clock.csproj.GenerateResource.Cache
+c:\DITL\Git\ClockET\Clock\obj\Debug\Clock.exe
+c:\DITL\Git\ClockET\Clock\obj\Debug\Clock.pdb
