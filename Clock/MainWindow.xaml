@@ -6,7 +6,7 @@
         <Ellipse Name="ClockFaceBorder" Width="720" Height="720" StrokeThickness="20" Stroke="#FF381700"  Fill="Transparent"/>
         <Ellipse Name="ClockFace" Width="680" Height="680" Fill="#FFD2E4D0" Opacity="0.7"/>
 
-<Label Name="Auth63644589424799LOL" Content="5545345aaa" Width="270" Height="60" FontSize="48" HorizontalContentAlignment="Center" Margin="0,0,0,300" FontFamily="Vivaldi" FontStyle="Italic" FontWeight="Bold" Foreground="#FF032C0E"/>
+<Label Name="Auth63644600220147LOL" Content="5545345aaa" Width="270" Height="60" FontSize="48" HorizontalContentAlignment="Center" Margin="0,0,0,300" FontFamily="Vivaldi" FontStyle="Italic" FontWeight="Bold" Foreground="#FF032C0E"/>
 
         <Grid Name="DigitalClock" Background="#FF170F0A" Width="185" Height="70" Margin="267,250,0,0" HorizontalAlignment="Left" Opacity="0.7">
             <Label Name="DigitalHour" Width="55" Height="60" Margin="5,0,0,0" Padding="5,0,0,0" Background="#FF50975D" Content="00" FontSize="40" HorizontalAlignment="Left"/>
